@@ -1,0 +1,55 @@
+site_name: Identity & Access Management
+site_url: https://docs.identity.tamu.edu/
+nav:
+    - Home: index.md
+    - Requests: requests/index.md
+    - Lifecycle: lifecycle/index.md
+    - Attributes & Namespace: attributes/index.md
+    - Authentication: authentication/index.md
+    - API: api/index.md
+    - Certificates: certs/index.md
+theme:
+    name: material
+    palette:
+        scheme: default
+    icon:
+        logo: material/lock-open-check
+        repo: material/github
+        admonition: 
+            example: octicons/beaker-16
+    favicon: img/aip2.png
+    features:
+        - toc.follow
+        - navigation.top
+        - navigation.instant
+        - toc.integrate
+#        - navigation.expand
+        - content.tabs.link
+        - navigation.tabs
+        - navigation.indexes
+    font:
+        text: Public Sans
+
+markdown_extensions:
+  - admonition
+  - meta
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.betterem
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+extra_css:
+    - css/tamu.css
+
+
