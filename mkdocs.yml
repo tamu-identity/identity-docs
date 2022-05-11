@@ -23,7 +23,6 @@ theme:
         - navigation.top
         - navigation.instant
         - toc.integrate
-#        - navigation.expand
         - content.tabs.link
         - navigation.tabs
         - navigation.indexes
